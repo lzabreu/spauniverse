@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+:root {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	height: 100vh;
+	font-size: 1.6rem;
+	background-image: url(./assets/pagina1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav {
+	display: flex;
+	gap: 3.2rem;
+	height: 12.2rem;
+	align-items: center;
+	padding: 4rem 7.2rem;
+}
+a,
+h1 {
+	color: white;
+}
+h1 {
+	font-size: 4.8rem;
+	font-weight: bold;
+	line-height: 125%;
+	margin-bottom: 1.6rem;
+}
+p {
+	font-size: 1.8rem;
+	line-height: 160%;
+	color: #e1e1e6;
+}
+a {
+	text-decoration: none;
+	font-size: 2.4rem;
+}
+
+.active {
+	font-weight: bold;
+}
+#app {
+	display: flex;
+	margin-top: 6.3rem;
+	margin-left: 10.2rem;
+}
+#home {
+	display: flex;
+	margin-top: 17.2rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#universe,
+#exploration {
+	width: 64.8rem;
+}
+button{
+	padding: 1.2rem 3.2rem;
+	margin-top: 2.4rem;
+	background-color: transparent;
+	border: 1px solid #e1e1e6;
+	border-radius: .5rem;
+	font-weight: bold;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+button:hover {
+	background-color: white;
+	color: #02799D;
+}
